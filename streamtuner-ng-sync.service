@@ -1,0 +1,14 @@
+[Unit]
+Description=Streamtuner-ng sync to directory
+After=network.target
+
+[Service]
+Restart=always
+RestartSec=5
+Type=simple
+User=rocus
+Group=rocus
+ExecStart=/home/rocus/.local/bin/streamtuner-ng-sync.sh
+
+[Install]
+WantedBy=default.target
