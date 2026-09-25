@@ -1,2 +1,1 @@
 The Python program sync.py performs a sortoff sync between the bookmarks.jon file of streamtuner-ng (and specifically the favorites part) and a directory somewhere on your PC system. It translates the radio stations in the json file to pls files that other streamers may use (in my case Philips SLA5520 streamers). Changes in the directory are not synced to the bookmarks.json file. Streamtuner-ng remains master over its bookmarks file.
-
